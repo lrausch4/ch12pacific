@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:height="http://www.w3.org/1999/xhtml" xmlns="">
+<head>
+    <meta charset="UTF-8">
+    <title>Pacific Trails Resort :: Reservations</title>
+    <link rel="stylesheet" href="pacific.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pacific Trails Resort is a great place to
+go to have fun exploring the Pacific Coast.">
+</head>
+<body>
+<header><a href="index.html"><h1>Pacific Trails Resort</h1></a></header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="yurts.html">Yurts</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+    </ul>
+</nav>
+<div id="wrapper"><h2>Reservations at Pacific Trails</h2>
+   <h3>Contact Us Today!</h3>
+    <p>Required fields are marked with an asterisk *</p>
+    <form name= "order" method="post" id="order" action="https://webdevbasics.net/scripts/pacific.php">
+        <label>* First Name</label>
+        <label for= "myFName">
+            <input type="text" id="myFName" name="myFName">
+        </label>
+
+        <label>* Last Name</label>
+        <label for= "myLName">
+            <input type="text" id="myLName" name="myLName">
+        </label>
+
+        <label>* E-mail Address</label>
+        <label for= "myEmail">
+            <input type="text" id="myEmail" name="myEmail">
+        </label>
+
+        <label>Phone Number</label>
+        <label for= "PhoneNumber">
+            <input type="tel" id="PhoneNumber" name="PhoneNumber" maxlength="12">
+        </label>
+
+        <label>Arrival Date</label>
+        <label for= "Arrival">
+            <input type="date" id="Arrival" name="Arrival">
+        </label>
+
+        <label>Nights</label>
+        <label for= "nights">
+            <input type="number" id="nights" name="nights" min="1" max="14">
+        </label>
+
+        <label>* Comments</label>
+        <label for= "myComments">
+            <textarea id="myComments" name="myComments" rows="2" cols="30"></textarea>
+        </label>
+
+            <input type="submit" value="Submit">
+
+    </form>
+
+    <div><span>Pacific Trails Resort</span><br>12010 Pacific Trails Road<br> Zephyr, CA 95555 <br> 888-555-5555</div>
+    <br>
+    <footer>Copyright&copy;2020 Pacific Trails Resort<br> <a href>leah@rausch.com</a><br>
+        <a href="privacy.html">Our Private Policy</a></footer>
+
+</div>
+</body>
+</html>
